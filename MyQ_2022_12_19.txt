@@ -1,0 +1,197 @@
+﻿Питание от внешнего блока питания +12В
+
+Для создания exe:
+d:\Qt\5.15.2\mingw81_64\bin\windeployqt.exe
+
+windeployqt.exe d:\MyCpp\MyQt\SANEMA\AS\AS_exe\AnalysisGraphics.exe
+windeployqt.exe d:\MyCpp\MyQt\SANEMA\AS\AS_exe\ModbusRTU.dll
+
+********************************************************************************************
+
+Логни для аккаунта Qt
+
+почта winhackexe@yandex.ru
+пароль Delfinalex85
+
+********************************************************************************************
+Изучить следующие вопросы:
+
+1. mutable
+2. explicit
+3. QDataStream
+4. openMP, openCL
+5. функции Обратного Вызова
+6. Парметры командной строки
+7. COM-порт
+8. Как считается CRC
+9. В Qt есть встроенные парсеры типов и конвертация типов
+10. QML
+11. QDebug
+12. QVectror
+13. Оконные объекты: QMainWindow, QWidget и.т.д.
+14. Обработка событий SIGNALS и SLOTS
+15. QSerialPort (С помощью него попробовать сделать стандартный терминал общения по COM устройствам)
+16. QPluginLoader (для создания плагинов для приложения по прописанному API (Создание своего DLL по шаблонному классу)
+17. 
+
+********************************************************************************************
+DodNet - использует Валера.
+dear imgui - прикольная библиотека для графики С++
+скорость в бодах. 1 Бод = 1 бит/сек.
+Данила: дополнительно использую Alglib для мат задач, QCustomPlot для работы с графиками (у меня она чуть дописана, собственный форк)
+********************************************************************************************
+Заметки по Qt/QtCreator/C/C++/Computer Science:
+
+Фреймворк - Qt. Среда разработки QtCreator
+
+Ко всем объектам Qt осуществляется доступ через переменную ui.
+
+У Сигнала и Слота должны быть одинаковые параметры.
+
+Закладки	Ctrl+M - добавить/удалить закладку
+		Alt+M  - список закладок
+
+Когда dll успешно инжиктируется в программу - это значит, что dll успешно нашла точку доступа к основной программе. 
+dll всегда подключаются к определеным точкам доступа.
+Инжиктирование - внедрениее dll в поток работы логики программы.
+
+Для кнопки есть встроенный в qt метод getEnable (возможно написано неправильно) - при каждом нажатии на кнопку меняется внутреннее состояние кнопки - булевый элемент.
+
+Рекоммендации по работе с QVector - после завершения работы с QVector - очистить, а потом удалить как объект.
+Если просто воспользоваться методом clear(), то будет утечка памяти.
+Как только закончили работать с объектом - вызывай деструктор. И если дальше этот объект не нужен, то удаить его.
+
+Оперативная память в Windows начинается не с 0, а с 1.
+Когда указатель привели к 0, то это означает, что указатель ни к чему не привязан. Привели его к какому-то адресу - то есть мы переопределили указатель.
+
+Библиотека DLL - можно ли отлаживать пошагово? Можно, но если библиотека линкуется статически. Динамические библиотеки отлаживать теоритечески можно, но сложно, так как нужно настроить отладчик и точку доступа. Программа для запуска - это точка доступа.
+
+********************************************************************************************
+
+Создаёшь QCombobox как обычно и привязываешь его к нужной ячейке QTableWidget с помощью метода setCellWidget:
+
+QComboBox *comboBox = new QComboBox();
+ui->tableWidget->setCellWidget(0, 0, comboBox); // помещаем в ячейку 0, 0
+
+Получить виджет из определённой ячейки можно с помощью метода cellWidget (возвращает QWidget*, так что понадобится приведение типов):
+
+QComboBox *comboBox = qobject_cast< QComboBox* >(ui->tableWidget->cellWidget(0, 0));
+QString value = comboBox->currentText();
+
+********************************************************************************************
+
+Полезные ссылки:
+
+EVILEG
+https://evileg.com/ru/knowledge/qt/?page=5
+
+ВидеоУроки Qt
+Онлайн лекции по Qt/C++ https://www.youtube.com/playlist?list=PL0pLNTh-0dShkmStDZc700N0vZXzgOC1t
+Михаил Федосеев https://www.youtube.com/channel/UCbuzod1Dtfwz00LAqWyVtkQ/playlists
+Гоша Дударь https://www.youtube.com/watch?v=g6fw5n9Gt-E
+
+ВидеоУроки по CS/С/С++
+https://www.youtube.com/watch?v=k9wK2FThEsk&list=PLIJLLSrXDPojDGKW0WZ7sU0eO3nyn0oDc&index=3
+https://www.youtube.com/watch?v=Kp-OH2EdmfA&list=PL4_hYwCyhAvY2dY_tnTv3-TJThzcloCvM&index=10
+https://www.youtube.com/watch?v=vVA46EvbL4E&list=PLrCZzMib1e9qjGLjg83bCksf3N7FIy7jg&index=7
+https://www.youtube.com/watch?v=vW_YDdmldfc&list=PLrCZzMib1e9raTDJ5IyuSHe9AmOUHAAsr&index=7
+https://www.youtube.com/watch?v=Ff5BhtyPrZk&list=PLlb7e2G7aSpQQWIFH4vHEN2gRaBlhwhkw
+https://www.youtube.com/watch?v=b9cqgr7NpYU&list=PLlb7e2G7aSpQJpe8sWD2kIQ51Lx74H2FH&index=5
+https://www.youtube.com/watch?v=b9cqgr7NpYU&list=PLlb7e2G7aSpQJpe8sWD2kIQ51Lx74H2FH&index=5
+https://www.youtube.com/watch?v=QWsGb23FJow&list=PLlb7e2G7aSpSidTs7HuqUX_NeslBsg2Mb
+https://www.youtube.com/watch?v=k850DNwR9xw&list=PLlb7e2G7aSpTZN_zRrbpVJUvB-pTuM_VL
+https://www.youtube.com/watch?v=uC0jJGfDxtM&list=PLlb7e2G7aSpTFea2FYxp7mFfbZW-xavhL&index=7
+https://www.youtube.com/watch?v=UUbvms7Kazk&list=PLlb7e2G7aSpRs7YafQ1GgJvyRku10m1RN
+https://www.youtube.com/watch?v=FzN8zzMRTlw&list=PLlb7e2G7aSpRZ9wDzXI-VYpk59acLFOIr&index=7
+https://www.youtube.com/watch?v=MWsfHQaUzI0&list=PLRDzFCPr95fL_5Xvnufpwj2uYZnZBBnsr
+https://www.youtube.com/watch?v=S6HzukfU0Lw&list=PLRDzFCPr95fLjzcv6nNdjMu_9RcZgIM9U&index=7
+
+Работа с файлами
+https://www.youtube.com/watch?v=akYlDgE9Gi0
+https://www.youtube.com/watch?v=UzF0wpw4fy4&t=2s
+https://www.youtube.com/watch?v=UzF0wpw4fy4&t=10s
+https://www.youtube.com/watch?v=DbPTcY-V9gQ
+https://www.youtube.com/watch?v=RFzQ9MhijH8
+https://nicknixer.ru/programmirovanie/qfile-i-fajly-chtenie-i-zapis-strok-v-fajl/
+http://itnotesblog.ru/note.php?id=166
+https://easy-qt.blogspot.com/2012/10/qfile.html
+https://russianblogs.com/article/91201469339/
+
+Логирование
+https://www.youtube.com/watch?v=QSzx4aU39DA&list=WL&index=2&t=4s
+https://evileg.com/ru/post/154/
+
+Про преобразование QString и QByteArray
+http://crossplatform.ru/node/237
+
+QByteArray:
+http://doc.crossplatform.ru/qt/4.5.0/qbytearray.html#qstrlen
+
+Таймер Qt
+https://evileg.com/ru/post/72/
+
+Описание Класса QColor
+http://qtdocs.narod.ru/4.1.0/doc/html/qcolor.html
+
+Делегаты:
+https://www.youtube.com/watch?v=EJf-vZ6FQfc
+
+
+GammaRay — средство интроспекции Qt-приложений
+https://habr.com/ru/company/infopulse/blog/258411/
+
+Установка Boost под Qt
+https://harrix.dev/blog/2017/boost-qt/
+
+Утечки памяти
+https://habr.com/ru/post/542656/
+
+Компиляция С/С++
+https://habr.com/ru/post/478124/
+http://cppstudio.com/post/2699/
+
+Задачник С/С++
+http://cppstudio.com/cat/285/
+
+
+********************************************************************************************
+https://www.codewars.com
+https://leetcode.com
+********************************************************************************************
+Про Qt вообще:
+http://doc.crossplatform.ru/qt/4.8.x/html-qt/
+https://coolcode.ru/qt-spravochnik-osnovyi/
+http://it.kgsu.ru/Qt/oglav.html
+https://runebook.dev/ru/docs/qt/-index-
+
+Работа с датой и временем в Qt:
+http://it.kgsu.ru/Qt/qt0120.html
+
+Qt Style Sheets Examples
+https://docs.huihoo.com/qt/4.3/stylesheet-examples.html#customizing-qtablewidget
+
+XML
+http://doc.crossplatform.ru/qt/4.6.x/qxmlstreamreader.html#readNext
+https://russianblogs.com/article/5586401657/
+
+Битовые операции:
+https://alexgyver.ru/lessons/bitmath/
+
+Онлайн работа с битами, с hex и прочее:
+https://planetcalc.com/1674/
+https://numsys.ru/convert/34/10/2
+https://bit-calculator.com/bit-shift-calculator
+https://www.asciitohex.com
+https://gregstoll.dyndns.org/~gregstoll/floattohex/
+https://g2384.github.io/collection/Hex_Calc_IEEE754_conversion.html
+
+size_t:
+https://radioprog.ru/post/1096
+
+
+
+
+
+
+
+

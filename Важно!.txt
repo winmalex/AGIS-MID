@@ -1,0 +1,19 @@
+Питание от внешнего блока питания +12В
+
+Для создания exe:
+d:\Qt\5.15.2\mingw81_64\bin\windeployqt.exe 
+
+windeployqt.exe d:\MyCpp\MyQt\SANEMA\AS\AS_exe\AnalysisGraphics.exe
+
+Скопировать файлы из d:\Qt\5.15.2\mingw81_64\bin\ в папку, где будет .exe:
+libgcc_s_seh-1.dll
+libwinpthread-1.dll
+opengl32sw.dll
+libstdc++-6.dll
+libGLESv2.dll
+libEGL.dll
+d3dcompiler_47.dll
+
+windeployqt.exe d:\MyCpp\MyQt\SANEMA\AS\AS_exe\ModbusRTU.dll
+
+

@@ -1,0 +1,79 @@
+struct SendCommand{
+    uint16  id_cmd;
+    uint16  remained;
+    uint8   receiver;
+    uint8   cmd;
+    uint8   data[];
+};
+
+dev_name ~ 
+'M' // Main program
+'P' // Protocol 
+'K' // Kedr laboratory
+'D' // Data server
+'T' // Tool driver
+
+
+
+Commands
+- get new connection to server
+  ID 'M' 'C' -> ID 'M' 'C'
+
+- get current logging tool driver package name
+*  ID 'M' 'P' -> ID 'M' 'P' ("%s", ktd_package_name())
+
+- get current logging tool info
+*  ID 'M' 'T' -> ID 'M' 'T' (content of WORKDIR( "tool_info.txt", UTF8 ) file)
+
+- get current logging data tables description
+*  ID 'M' 'L' -> ID 'M' 'L' (uint32 ltab_count, LogTable ltab1, LogTable ltab2, ... , LogTable ltabN)
+
+struct LogTable
+{
+	uint32	ltab_len;															// Длина структуры
+	uint16	unicode_symbole;													// Последовательность в байте слова
+	uint16	block_name_length;													// Длина названия блока
+	uint8	block_name_utf16[block_name_length];								// Название 
+	uint32	ltab_desc_len;														// Длина описания
+	uint32	records_count;														// Кол-во данных
+	uint8	ltab_description_utf16[ltab_desc_len - sizeof(records_count)];		// Описание
+}
+							 
+							 
+- get current logging data
+*  ID 'M' 'L' uint32 LTAB_NUM, uint32 IDX_FROM, uint32 IDX_TO -> ID 'M' 'L' uint32 LTAB_NUM, uint32 IDX_FROM, uint32 COUNT, void data
+
+- get current UPS1 / UPS2 data
+*  ID 'K' 'U' uint8 NUM -> ID 'K' 'U' (uint8 NUM, KedrUPSData UPS_DATA)
+
+- get current forms
+*  ID 'M' 'F' -> ID 'M' 'F' (content of "[FORMS]" block of ( FORMSDIR("%s.forms", UTF8), ktd_package_name() ) file)
+
+- get current well info
+*  ID 'M' 'W' -> ID 'M' 'W' (content of WORKDIR( "well_info.gfm", UTF8 ) file )
+
+- get default calibration info
+*  ID 'M' 'D' -> ID 'M' 'D' (default calibration info UTF8)
+
+- send message 
+*  ID 'M' 'M'(message UTF8 ) -> ID 'M' 'M'
+
+Messages
+- logging tool driver ON / OFF
+*    -> 0 'M' 'P' ("%s", ktd_package_name()) 
+*    -> 0 'M' 'P' ('\0')
+- tool info changed
+*    -> 0 'M' 'T'
+- well info changed
+*    -> 0 'M' 'W'
+- logging data tables description changed
+*    -> 0 'M' 'L'
+- start logging new record
+*    -> 0 'M' 'N' (int64 unix_time_last_reset_time)
+- save logging record
+*    -> 0 'M' 'S' (uint32 ltab_count, uint32 ltab1_record_saved, ..., uint32 ltabN_record_saved,
+                   uint32 strlen(get_current_log_mnemonic()) + 1, get_current_log_mnemonic(),
+                   uint32 strlen(file_name)+1, char8 file_name[],
+                   content of REMOTEDIR("header.gfm", UTF8) file)
+- tool driver save blocks for GFM-file
+     -> 0 'T' 'B' (content of WORKDIR( "tool_driver_blocks.gfm", UTF8 ) file )

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--26.10.2022 16:49:22-->
+<!--Документ содержит таблицу сценариев для АГИС-->
+<!--FLAG:             Режим работы прибора-->
+<!--HOUR:             Продолжительность работы прибора [Час]-->
+<!--MINUTE:           Продолжительность работы прибора [Минута]-->
+<!--SECOND:           Продолжительность работы прибора [Секунда]-->
+<!--PULSE_DURATION_L: Длительность импульса возбуждения большой катушки [мс]-->
+<!--PULSE_DURATION_S: Длительность импульса возбуждения малой катушки   [мс]-->
+<!--CURRENT_L:        Ток возбуждения большой катушки [ампер]-->
+<!--CURRENT_S:        Ток возбуждения малой катушки   [ампер]-->
+<!--COMMENTS:         Пользовательский комментарий к данному сценарию-->
+<AGIS name_module="AGIS-MID">
+    <SCENARIO number="1">
+        <FLAG value="Не работает"/>
+        <HOUR value="1"/>
+        <MINUTE value="11"/>
+        <SECOND value="30"/>
+        <PULSE_DURATION_L value="201"/>
+        <PULSE_DURATION_S value="51"/>
+        <CURRENT_L value="0.31"/>
+        <CURRENT_S value="0.05"/>
+        <COMMENTS value="q й !"/>
+    </SCENARIO>
+    <SCENARIO number="2">
+        <FLAG value="Униполярный режим, положит. полярность"/>
+        <HOUR value="2"/>
+        <MINUTE value="12"/>
+        <SECOND value="40"/>
+        <PULSE_DURATION_L value="202"/>
+        <PULSE_DURATION_S value="52"/>
+        <CURRENT_L value="0.32"/>
+        <CURRENT_S value="0.06"/>
+        <COMMENTS value="w ц [] ()"/>
+    </SCENARIO>
+    <SCENARIO number="3">
+        <FLAG value="Униполярный режим, отрицат. полярность"/>
+        <HOUR value="3"/>
+        <MINUTE value="13"/>
+        <SECOND value="50"/>
+        <PULSE_DURATION_L value="203"/>
+        <PULSE_DURATION_S value="53"/>
+        <CURRENT_L value="0.33"/>
+        <CURRENT_S value="0.07"/>
+        <COMMENTS value="e у &quot;&quot;"/>
+    </SCENARIO>
+    <SCENARIO number="4">
+        <FLAG value="Биполярный режим"/>
+        <HOUR value="4"/>
+        <MINUTE value="14"/>
+        <SECOND value="60"/>
+        <PULSE_DURATION_L value="204"/>
+        <PULSE_DURATION_S value="54"/>
+        <CURRENT_L value="0.34"/>
+        <CURRENT_S value="0.08"/>
+        <COMMENTS value="r к . ,"/>
+    </SCENARIO>
+    <SCENARIO number="5">
+        <FLAG value="Не работает"/>
+        <HOUR value="5"/>
+        <MINUTE value="15"/>
+        <SECOND value="70"/>
+        <PULSE_DURATION_L value="205"/>
+        <PULSE_DURATION_S value="55"/>
+        <CURRENT_L value="0.35"/>
+        <CURRENT_S value="0.09"/>
+        <COMMENTS value="t е ?"/>
+    </SCENARIO>
+    <SCENARIO number="6">
+        <FLAG value="Униполярный режим, положит. полярность"/>
+        <HOUR value="6"/>
+        <MINUTE value="16"/>
+        <SECOND value="80"/>
+        <PULSE_DURATION_L value="206"/>
+        <PULSE_DURATION_S value="56"/>
+        <CURRENT_L value="0.36"/>
+        <CURRENT_S value="0.10"/>
+        <COMMENTS value="y н - _"/>
+    </SCENARIO>
+    <SCENARIO number="7">
+        <FLAG value="Униполярный режим, отрицат. полярность"/>
+        <HOUR value="7"/>
+        <MINUTE value="17"/>
+        <SECOND value="90"/>
+        <PULSE_DURATION_L value="207"/>
+        <PULSE_DURATION_S value="57"/>
+        <CURRENT_L value="0.37"/>
+        <CURRENT_S value="0.11"/>
+        <COMMENTS value="u г ; :"/>
+    </SCENARIO>
+    <SCENARIO number="8">
+        <FLAG value="Биполярный режим"/>
+        <HOUR value="8"/>
+        <MINUTE value="18"/>
+        <SECOND value="100"/>
+        <PULSE_DURATION_L value="208"/>
+        <PULSE_DURATION_S value="58"/>
+        <CURRENT_L value="0.38"/>
+        <CURRENT_S value="0.12"/>
+        <COMMENTS value="i ш"/>
+    </SCENARIO>
+    <SCENARIO number="9">
+        <FLAG value="Не работает"/>
+        <HOUR value="9"/>
+        <MINUTE value="19"/>
+        <SECOND value="110"/>
+        <PULSE_DURATION_L value="209"/>
+        <PULSE_DURATION_S value="59"/>
+        <CURRENT_L value="0.39"/>
+        <CURRENT_S value="0.13"/>
+        <COMMENTS value="o щ"/>
+    </SCENARIO>
+    <SCENARIO number="10">
+        <FLAG value="Униполярный режим, положит. полярность"/>
+        <HOUR value="10"/>
+        <MINUTE value="20"/>
+        <SECOND value="120"/>
+        <PULSE_DURATION_L value="210"/>
+        <PULSE_DURATION_S value="61"/>
+        <CURRENT_L value="0.40"/>
+        <CURRENT_S value="0.14"/>
+        <COMMENTS value="p з"/>
+    </SCENARIO>
+</AGIS>

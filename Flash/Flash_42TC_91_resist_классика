@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FLASH_DATA DATE="27.11.2019 11:37:38">
+  <MODULE NAME="GKT">
+    <FLASH NAME="HardFlash">
+      <FIELD NAME="Общий объем информационной части" VALUE="279"/>
+      <FIELD NAME="Тип прибора" VALUE="0"/>
+      <FIELD NAME="Номер прибора" VALUE="30036891"/>
+      <FIELD NAME="День изготовления" VALUE="16"/>
+      <FIELD NAME="Месяц изготовления" VALUE="10"/>
+      <FIELD NAME="Год изготовления" VALUE="2019"/>
+      <FIELD NAME="Имя прибора" VALUE="Kedr-M-B-42TS"/>
+      <FIELD NAME="Код МКЦБ" VALUE="468151"/>
+      <FIELD NAME="Device decimal" VALUE="139"/>
+      <FIELD NAME="Версия формата" VALUE="1.3"/>
+      <FIELD NAME="Версия прошивки" VALUE="3.0"/>
+      <FIELD NAME="Резерв" VALUE="0"/>
+      <FIELD NAME="Марка микроконтроллера" VALUE="Kedr-M-B-38"/>
+      <FIELD NAME="Физическая длина прибора в мм." VALUE="1522"/>
+      <FIELD NAME="Объем заголовочной части данных прибора" VALUE="0"/>
+      <FIELD NAME="Объем данных" VALUE="62"/>
+      <FIELD NAME="Наибольшее число разбиений данных" VALUE="1"/>
+      <FIELD NAME="TIN Мнемоника" VALUE="TIN"/>
+      <FIELD NAME="TIN Точка записи" VALUE="693"/>
+      <FIELD NAME="TIN Флаги" VALUE="32769"/>
+      <FIELD NAME="CCL Мнемоника" VALUE="CCL"/>
+      <FIELD NAME="CCL Точка записи" VALUE="146"/>
+      <FIELD NAME="CCL Флаги" VALUE="1"/>
+      <FIELD NAME="CCLX Мнемоника" VALUE="CCLX"/>
+      <FIELD NAME="CCLX Точка записи" VALUE="146"/>
+      <FIELD NAME="CCLX Флаги" VALUE="1"/>
+      <FIELD NAME="CCLM Мнемоника" VALUE="CCLM"/>
+      <FIELD NAME="CCLM Точка записи" VALUE="146"/>
+      <FIELD NAME="CCLM Флаги" VALUE="1"/>
+      <FIELD NAME="GRTM Мнемоника" VALUE="GRTM"/>
+      <FIELD NAME="GRTM Точка записи" VALUE="354"/>
+      <FIELD NAME="GRTM Флаги" VALUE="1"/>
+      <FIELD NAME="GR Мнемоника" VALUE="GR"/>
+      <FIELD NAME="GR Точка записи" VALUE="354"/>
+      <FIELD NAME="GR Флаги" VALUE="1"/>
+      <FIELD NAME="GRV Мнемоника" VALUE="GRV"/>
+      <FIELD NAME="GRV Точка записи" VALUE="354"/>
+      <FIELD NAME="GRV Флаги" VALUE="1"/>
+      <FIELD NAME="HYDR Мнемоника" VALUE="HYDR"/>
+      <FIELD NAME="HYDR Точка записи" VALUE="1123"/>
+      <FIELD NAME="HYDR Флаги" VALUE="1"/>
+      <FIELD NAME="UPWR Мнемоника" VALUE="UPWR"/>
+      <FIELD NAME="UPWR Точка записи" VALUE="0"/>
+      <FIELD NAME="UPWR Флаги" VALUE="1"/>
+      <FIELD NAME="UEMD Мнемоника" VALUE="UEMD"/>
+      <FIELD NAME="UEMD Точка записи" VALUE="0"/>
+      <FIELD NAME="UEMD Флаги" VALUE="1"/>
+      <FIELD NAME="TEXT Мнемоника" VALUE="TEXT"/>
+      <FIELD NAME="TEXT Точка записи" VALUE="1289"/>
+      <FIELD NAME="TEXT Флаги" VALUE="2"/>
+      <FIELD NAME="STI1 Мнемоника" VALUE="STI1"/>
+      <FIELD NAME="STI1 Точка записи" VALUE="1134"/>
+      <FIELD NAME="STI1 Флаги" VALUE="2"/>
+      <FIELD NAME="STI2 Мнемоника" VALUE="STI2"/>
+      <FIELD NAME="STI2 Точка записи" VALUE="1116"/>
+      <FIELD NAME="STI2 Флаги" VALUE="2"/>
+      <FIELD NAME="PCOR Мнемоника" VALUE="PCOR"/>
+      <FIELD NAME="PCOR Точка записи" VALUE="969"/>
+      <FIELD NAME="PCOR Флаги" VALUE="2"/>
+      <FIELD NAME="PBW Мнемоника" VALUE="PBW"/>
+      <FIELD NAME="PBW Точка записи" VALUE="969"/>
+      <FIELD NAME="PBW Флаги" VALUE="2"/>
+      <FIELD NAME="ACCX Мнемоника" VALUE="ACCX"/>
+      <FIELD NAME="ACCX Точка записи" VALUE="769"/>
+      <FIELD NAME="ACCX Флаги" VALUE="2"/>
+      <FIELD NAME="ACCY Мнемоника" VALUE="ACCY"/>
+      <FIELD NAME="ACCY Точка записи" VALUE="769"/>
+      <FIELD NAME="ACCY Флаги" VALUE="2"/>
+      <FIELD NAME="ACCZ Мнемоника" VALUE="ACCZ"/>
+      <FIELD NAME="ACCZ Точка записи" VALUE="769"/>
+      <FIELD NAME="ACCZ Флаги" VALUE="2"/>
+      <FIELD NAME="CCL2 Мнемоника" VALUE="CCL2"/>
+      <FIELD NAME="CCL2 Точка записи" VALUE="146"/>
+      <FIELD NAME="CCL2 Флаги" VALUE="2"/>
+      <FIELD NAME="RES Мнемоника" VALUE="RES"/>
+      <FIELD NAME="RES Точка записи" VALUE="1338"/>
+      <FIELD NAME="RES Флаги" VALUE="2"/>
+      <FIELD NAME="STIP Мнемоника" VALUE="STIP"/>
+      <FIELD NAME="STIP Точка записи" VALUE="1124"/>
+      <FIELD NAME="STIP Флаги" VALUE="1"/>
+      <FIELD NAME="PP Мнемоника" VALUE="PP"/>
+      <FIELD NAME="PP Точка записи" VALUE="969"/>
+      <FIELD NAME="PP Флаги" VALUE="1"/>
+      <FIELD NAME="PT Мнемоника" VALUE="PT"/>
+      <FIELD NAME="PT Точка записи" VALUE="969"/>
+      <FIELD NAME="PT Флаги" VALUE="1"/>
+      <FIELD NAME="GKDC Мнемоника" VALUE="GKDC"/>
+      <FIELD NAME="GKDC Точка записи" VALUE="454"/>
+      <FIELD NAME="GKDC Флаги" VALUE="1"/>
+      <FIELD NAME="CRC16HF" VALUE="41909"/>
+    </FLASH>
+    <FLASH NAME="ParamFlash">
+      <FIELD NAME="Длина параметрической части" VALUE="73"/>
+      <FIELD NAME="TelemetrySpd" VALUE="0"/>
+      <FIELD NAME="TelemetryRes, 1-2bit, 2-4bit" VALUE="1"/>
+      <FIELD NAME="ResistDivisor" VALUE="400"/>
+      <FIELD NAME="ResistPhaseOne" VALUE="180"/>
+      <FIELD NAME="ResistPhaseTwo" VALUE="0"/>
+      <FIELD NAME="GKDACSetValue" VALUE="300"/>
+      <FIELD NAME="GKDACMinValue" VALUE="0"/>
+      <FIELD NAME="GKDACMaxValue" VALUE="4095"/>
+      <FIELD NAME="HygroHiPrescaler" VALUE="2"/>
+      <FIELD NAME="HygroHiTimeout" VALUE="65000"/>
+      <FIELD NAME="HygroLoPulses" VALUE="320"/>
+      <FIELD NAME="STIMaxTemperature" VALUE="14360000"/>
+      <FIELD NAME="STIMinTemperature" VALUE="13600000"/>
+      <FIELD NAME="EMDSDisabled" VALUE="0"/>
+      <FIELD NAME="GKNDisabled" VALUE="255"/>
+      <FIELD NAME="STIStartDutyValue" VALUE="0"/>
+      <FIELD NAME="EAdcTemperConfig" VALUE="101"/>
+      <FIELD NAME="EAdcStdConfig" VALUE="100"/>
+      <FIELD NAME="EAdcPcorrConfig" VALUE="100"/>
+      <FIELD NAME="EAdcPbwConfig" VALUE="101"/>
+      <FIELD NAME="EAdcLocatorConfig" VALUE="96"/>
+      <FIELD NAME="EAdcAccelConfig" VALUE="96"/>
+      <FIELD NAME="EAdcResistConfig" VALUE="97"/>
+      <FIELD NAME="AddCommandDump" VALUE="0"/>
+      <FIELD NAME="Температура начала стабилизации ФЭУ Tvol" VALUE="0"/>
+      <FIELD NAME="Температура конца стабилизации ФЭУ Tmax" VALUE="0"/>
+      <FIELD NAME="Значение ЦАП ГК для температуры Tvol" VALUE="0"/>
+      <FIELD NAME="Значение ЦАП ГК для температуры Tmax" VALUE="0"/>
+      <FIELD NAME="Прибавка к измеренному значению температуры" VALUE="0"/>
+      <FIELD NAME="reserv" VALUE="0"/>
+      <FIELD NAME="EAdcLocatorOffset" VALUE="4194304"/>
+      <FIELD NAME="CRC16PF" VALUE="8129"/>
+    </FLASH>
+    <FLASH NAME="CalibrFlash">
+      <FIELD NAME="Длина ClbrFlash" VALUE="294"/>
+      <FIELD NAME="GK_D, день" VALUE="21"/>
+      <FIELD NAME="GK_D, месяц" VALUE="10"/>
+      <FIELD NAME="GK_D, год" VALUE="2019"/>
+      <FIELD NAME="калибровка ГК gk0" VALUE="-7.80545"/>
+      <FIELD NAME="калибровка ГК gk1" VALUE="303.931"/>
+      <FIELD NAME="T_D, день" VALUE="20"/>
+      <FIELD NAME="T_D, месяц" VALUE="11"/>
+      <FIELD NAME="T_D, год" VALUE="2019"/>
+      <FIELD NAME="калибровка темп. t0" VALUE="-21.409"/>
+      <FIELD NAME="калибровка темп. t1" VALUE="1.16782e-005"/>
+      <FIELD NAME="калибровка темп. t2" VALUE="1.45226e-013"/>
+      <FIELD NAME="Hydr_D, день" VALUE="20"/>
+      <FIELD NAME="Hydr_D, месяц" VALUE="10"/>
+      <FIELD NAME="Hydr_D, год" VALUE="2019"/>
+      <FIELD NAME="калибровка влаг. h0" VALUE="-561.079"/>
+      <FIELD NAME="калибровка влаг. h1" VALUE="0.0123768"/>
+      <FIELD NAME="калибровка влаг. h2" VALUE="0"/>
+      <FIELD NAME="STD_D, день" VALUE="20"/>
+      <FIELD NAME="STD_D, месяц" VALUE="11"/>
+      <FIELD NAME="STD_D, год" VALUE="2019"/>
+      <FIELD NAME="калибровка стд1 std1_0" VALUE="-20.2216"/>
+      <FIELD NAME="калибровка стд1 std1_1" VALUE="1.20714e-005"/>
+      <FIELD NAME="калибровка стд1 std1_2" VALUE="2.27995e-013"/>
+      <FIELD NAME="калибровка стд2 std2_0" VALUE="-19.8705"/>
+      <FIELD NAME="калибровка стд2 std2_1" VALUE="1.22703e-005"/>
+      <FIELD NAME="калибровка стд2 std2_2" VALUE="2.19175e-013"/>
+      <FIELD NAME="Res_D, день" VALUE="24"/>
+      <FIELD NAME="Res_D, месяц" VALUE="10"/>
+      <FIELD NAME="Res_D, год" VALUE="2019"/>
+      <FIELD NAME="калибровка рез. r0" VALUE="-4.01064"/>
+      <FIELD NAME="калибровка рез. r1" VALUE="5.59205e-006"/>
+      <FIELD NAME="калибровка рез. r2" VALUE="-2.13252e-013"/>
+      <FIELD NAME="Acc_D, день" VALUE="19"/>
+      <FIELD NAME="Acc_D, месяц" VALUE="10"/>
+      <FIELD NAME="Acc_D, год" VALUE="2019"/>
+      <FIELD NAME="калибровка aкс.X gx0" VALUE="-34.7129"/>
+      <FIELD NAME="калибровка aкс.X gx1" VALUE="3.82117e-006"/>
+      <FIELD NAME="калибровка aкс.Y gy0" VALUE="-34.6147"/>
+      <FIELD NAME="калибровка aкс.Y gy1" VALUE="3.89846e-006"/>
+      <FIELD NAME="калибровка aкс.Z gz0" VALUE="-34.0345"/>
+      <FIELD NAME="калибровка aкс.Z gz1" VALUE="3.62663e-006"/>
+      <FIELD NAME="Press_D, день" VALUE="0"/>
+      <FIELD NAME="Press_D, месяц" VALUE="0"/>
+      <FIELD NAME="Press_D, год" VALUE="0"/>
+      <FIELD NAME="калибровка давления A0" VALUE="0"/>
+      <FIELD NAME="калибровка давления A1" VALUE="0"/>
+      <FIELD NAME="калибровка давления A2" VALUE="0"/>
+      <FIELD NAME="калибровка давления A3" VALUE="0"/>
+      <FIELD NAME="калибровка давления A4" VALUE="0"/>
+      <FIELD NAME="калибровка давления B0" VALUE="0"/>
+      <FIELD NAME="калибровка давления B1" VALUE="0"/>
+      <FIELD NAME="калибровка давления B2" VALUE="0"/>
+      <FIELD NAME="калибровка давления B3" VALUE="0"/>
+      <FIELD NAME="калибровка давления B4" VALUE="4.43734e-030"/>
+      <FIELD NAME="калибровка давления C0" VALUE="-1"/>
+      <FIELD NAME="калибровка давления C1" VALUE="-2.3465e+038"/>
+      <FIELD NAME="калибровка давления C2" VALUE="-9.08699e+033"/>
+      <FIELD NAME="калибровка давления C3" VALUE="1.05658e-042"/>
+      <FIELD NAME="калибровка давления C4" VALUE="0"/>
+      <FIELD NAME="калибровка давления D0" VALUE="1.83671e-039"/>
+      <FIELD NAME="калибровка давления D1" VALUE="0"/>
+      <FIELD NAME="калибровка давления D2" VALUE="9.18355e-041"/>
+      <FIELD NAME="калибровка давления D3" VALUE="0"/>
+      <FIELD NAME="калибровка давления D4" VALUE="0"/>
+      <FIELD NAME="калибровка давления E0" VALUE="1.83671e-039"/>
+      <FIELD NAME="калибровка давления E1" VALUE="-2.33944e+038"/>
+      <FIELD NAME="калибровка давления E2" VALUE="7.03163e-024"/>
+      <FIELD NAME="калибровка давления E3" VALUE="1.05798e-042"/>
+      <FIELD NAME="калибровка давления E4" VALUE="0"/>
+      <FIELD NAME="калибровка давления At" VALUE="2.20405e-039"/>
+      <FIELD NAME="калибровка давления Bt" VALUE="0"/>
+      <FIELD NAME="калибровка давления Ct" VALUE="1.5612e-039"/>
+      <FIELD NAME="калибровка давления Dt" VALUE="0"/>
+      <FIELD NAME="калибровка давления Et" VALUE="0"/>
+      <FIELD NAME="калибровка давления FP0" VALUE="0"/>
+      <FIELD NAME="калибровка давления MP" VALUE="-2.33944e+038"/>
+      <FIELD NAME="калибровка давления Span" VALUE="9.92676e-024"/>
+      <FIELD NAME="калибровка давления Zero" VALUE="1.05798e-042"/>
+      <FIELD NAME="калибровка давления FT0" VALUE="0"/>
+      <FIELD NAME="калибровка давления MT" VALUE="2.20405e-039"/>
+      <FIELD NAME="калибровка давления SpanT" VALUE="0"/>
+      <FIELD NAME="калибровка давления ZeroT" VALUE="0"/>
+      <FIELD NAME="тип датчика" VALUE="1"/>
+      <FIELD NAME="номер датчика" VALUE=""/>
+      <FIELD NAME="CRC16CF" VALUE="32380"/>
+    </FLASH>
+  </MODULE>
+</FLASH_DATA>

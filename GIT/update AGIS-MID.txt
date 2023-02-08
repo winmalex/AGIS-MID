@@ -1,0 +1,5 @@
+cd /d/MyCpp/MyQt/SANEMA/AGIS-MID
+git status
+git add *
+git commit -m "tratatatatatatatatata"
+git push

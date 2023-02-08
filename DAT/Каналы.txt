@@ -53,18 +53,5 @@ AGIS-MID	// Тип прибора (ASCIIZ-строка)
 0x00		// Давление (пока что заполнить нулями)
 0x00		// Температура (пока что заполнить нулями)
 2534		// Значение акселерометра по оси Z
-
-
-    /*
-    for (int i = 32; i < 48; ++i) {
-        NumberDevice.append(QString(RECORD[0].at(i)));
-    } */
-    NumberDevice.append(QString(RECORD[0].at(32)));
-    //int NumberDevice_temp = NumberDevice.toInt();
-    //qDebug() << "NumberDevice = " << NumberDevice;
-    //qDebug() << "NumberDevice_temp = " << NumberDevice_temp;
-
-    MetaData += NumberDevice + " ";
-    //qDebug() << NumberDevice;
 	
 	
